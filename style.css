@@ -1,0 +1,118 @@
+/*usar esquema de sintaxis como en C*/
+/*para el cuerpo de la pagina*/
+body{
+    background-image: url(/imagenes/ca3f230495774e186671234cbf10c3f9c9f81038r1-320-240_hq.gif); /*cambia el fondo*/
+    color:blueviolet; /*cabia el color de la letra*/
+    /*rgb es red green blue*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*para los parrafos*/
+p {
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color:purple;
+}
+
+/*para agregar una clase poner . antes del nombre*/
+
+/*como el apuntador a elemento de estructura*/
+.titulo-web{
+    color:rgb(66, 175, 238);
+    font-size: 40px;
+}
+
+.circular{
+    float:right;
+    border-radius: 50%;
+  }
+
+  .cir{
+    float:right;
+    border-radius: 60%;
+  }
+
+  .cir1{
+    border-radius: 60%;
+  }
+
+  .posi{
+    text-align: right;
+  }
+        
+img{
+    /*para cambiar el tamaño de imagenes*/
+    width: 300px; /*mueve el ancho*/
+    height: 250px; /*mueve el largo*/
+
+}
+
+.block1{
+    background-color: rgb(253, 253, 249);
+    padding: .5em;
+    display: flex;
+    list-style: none;
+    text-align: left;
+}
+
+.caja{
+    border: 4px solid rebeccapurple;
+    padding: .5em;
+    text-align: center;
+}
+.cent1{
+    text-align: center;
+}
+
+section {
+    display: block;
+    width: 400px;
+    height: 160px;
+  }
+  
+div {
+    display: flex;
+    justify-content: center;
+  }
+.gato1{
+    width: 25px; /*mueve el ancho*/
+}
+
+/*para importar tipos de letra externa*/
+
+div.figure {
+    float: right;
+    display: table;
+    width: 25%;
+   /* border: thin silver solid;*/
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  div.figure p {
+    /*display: table-cell;*/
+    text-align: left;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+  }
+
+/*  div.pic {
+    float: right;
+    display: table;
+    width: 25%;
+   border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  div.pic p{
+    display: table-cell;
+    text-align: left;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+  }*/
+
+

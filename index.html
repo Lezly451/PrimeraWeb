@@ -1,0 +1,168 @@
+<!--con esto se agrega un comentario en HTML-->
+<!DOCTYPE html> <!--Esto indica que el archivo en html-->
+<html lang="es"> <!--Lang, atributo de lenguajeEtiqueta madre donde va todo el proyecto, lang sirve para el lenguaje de la pagina, es =espanol-->
+    <head>  <!--Etiqueta de logica, cabeza-->
+        <!--Agregar archivos externos-->
+    
+        <title>Solan bushi</title>
+    
+        <!--Para conectar html con css-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Dentro del body,lo que el usuaio ve, dependiendo del tamano de texto H1, H2, etc-->
+        <h1>Sōran Bushi (ソーラン節)</h1>
+
+        <section>
+            <h2>índice</h2>
+            <ol>
+                <li><a href="#sus">Sus orígenes</a></li> <!--El # sirve para direccionar el hipervinculo-->
+                <ul>
+                    
+                    <li><a href="#hok">Hokkaido</a></li>
+                    <li><a href="#Sal">La saloma</a></li> <!--El # sirve para direccionar el hipervinculo-->
+
+                </ul>
+                <li><a href="#Tradu">Traducción</a></li>
+            </ol>
+          </section>
+
+        <main> <!--Para guardar contenido-->
+
+            <div class="figure">
+                <p><img class="circular" src="data:image/jpeg;base64,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"> 
+
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p> Hay muchas formas de bailar esta canción y esa es una de ellas. El paso que jamas cambia es el de tirar las sogas y lanzar las redes (DOKKOISHO-DOKKOISHO Y SORAN-SORAN)
+
+
+            </div>
+                
+
+            <p class="cajaP">El So-ran Bushi (ソーラン節) es una de las canciones tradicionales de Japón. Su origen se dió gracias a los pescadores de Hokkaidō, al lado norte del Japón y se ha transmitido por años a través de las generaciones
+            En la actualidad, esta canción se acompaña de la danza Bon la que según la costumbre budista japonesa se utiliza para honrar el deceso de los espíritus de sus ancestros.</p>
+
+            <h2 id="sus">1. Sus orígenes</h2>
+            <!--Desde internet copiar image adress-->
+
+            <h3 id="hok">Hokkaido (北海道)</h3>
+
+            <p>El Soran Bushi inicia a principios del siglo anterior, durante la pesca del arenque en primavera. Hokkaido, alojaba miles de trabajadores inmigrantes que se venían para sacar provecho de esta temporada de pesca la cual exigía mucho trabajo y esfuerzo.
+
+                Durante la transferencia manual del arenque, el cual se debía pasar de las grandes redes de enmalle hasta pequeños barcos-taxi mediante otras redes, se entonaban canciones acompañadas cada una de las fases de la pesca, tales como “remo” y “red de transporte”. Pero también existía una abundancia de letras, a menudo improvisadas, con temas eróticos o cómicos.
+                
+                Estos cantos se hacían para ayudar a los trabajadores a mantenerse despiertos durante varios días sin dormir. Por lo tanto “Soran Bushi” habría sonado como una canción que funciona para el trabajo.</p>
+
+    
+            <div> 
+                <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/109000/109211-Hakodate-And-Vicinity.jpg">
+                <img src="https://www.tripsavvy.com/thmb/jKC5dPxjCW2WM8f3IBb1NFunKQ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hokkaidocherryblossomsandsnow-3b22f562fa6f4589bd048e44681bb720.jpg">
+
+                <!--<p class="p2"> Fotos de la prefectura de Hokkado, Japón.-->
+            </div>
+
+            <h3 id="Sal">La saloma</h3>
+
+            <p>Debido a sus origenes se dice que está melodía se clásifica como una saloma. es un tipo de canto de marineros usado para aumentar la productividad en los trabajos realizados en la mar. Muchas salomas se han conservado por medio de la tradición oral y siguen interpretándose en la actualidad aunque frecuentemente fuera de su contexto original.
+
+                Las salomas se desarrollaron como un método para aumentar la productividad a bordo, al coordinar bajo el mismo ritmo a grupos de hombres para que trabajen conjuntamente o de forma más veloz. Otro efecto de las salomas era reducir el aburrimiento y la tensión en el barco, además de crear vínculos entre los tripulantes, lo que reducía el hastío en el barco y hacía largos viajes más amenos y reducía el riesgo de motín.</p>
+
+            <h2 id="Tradu">2. Traducción</h2>
+
+            <div class="cent1">  
+                <p>
+                    <ul class="block1" >
+                        <li> Japonés (Rōmaji): <br> <br><br>
+
+                            Yāren sōran sōran <br>
+                            Sōran sōran sōran (hai hai!) <br>
+                            Nishin kita ka to kamome ni toeba, <br>
+                            Watasha tatsu tori nami ni kike choi. <br> <br><br>
+                    
+                            CORO (kakegoe) <br>
+                            Yasa e en ya sa dokkoisho <br>
+                            (a dokkoisho, dokkoisho!) <br> <br><br>
+                    
+                            Yāren sōran... <br>
+                            Oyaji tairyō da mukashi to chigau <br>
+                            toreta nishin wa ore no mono choi <br> <br>
+                    
+                            Yāren sōran... <br>
+                            Ichi-jō-go-shaku no ro o kogu fune mo <br>
+                            horeta ano go nya te mo choi <br> <br><br>
+                    
+                            Yāren sōran... <br>
+                            Tama no suhada ga shibuki ni nurerya <br>
+                            uwaki kamome ga mite sawagu choi <br> 
+                        </li>
+                   
+                    <center><img class="cir1" src="http://pm1.narvii.com/7117/af62d8080c30e2663f906c8b42a4d2bc0d78b0eer1-550-366v2_uhq.jpg"></center>
+                    
+                        <li class="posi">
+                            Traducción al español: <br> <br><br>
+
+                            ¡¡¡Si!!! Soran, soran, soran, <br>
+                            soran, soran, soran. (¡sí, sí!) <br>
+                            Cuando escuchamos el parloteo <br>
+                            de las gaviotas en alta mar, <br>
+                            sabemos que no podemos renunciar a nuestra <br>
+                            vida de pescadores en el océano <br> <br><br>
+
+                            CORO<br>
+                            ¡Pónganse de espaldas! ¡Tienen que! ¡Tienen que! <br>
+                            (¡Empujar, si! ¡Empujar, si!)<br> <br><br>
+
+                            ¡¡¡Si!!! Soran... <br>
+                            Jefe, le digo, el tamaño de ese arenque <br>
+                            es diferente de todos los demás. Y es todo MÍO. <br> <br><br>
+
+                            ¡¡¡Si!!! Soran... <br>
+                            Incluso si remo cuatro metros y medio, <br>
+                            no podría llamar la atención de esa chica. <br> <br><br>
+
+                            ¡¡¡Si!!! Soran... <br>
+                            Una gaviota voladora gorjea de emoción <br>
+                            Al ver mi piel desnuda, reluciente con las olas del océano. <br> <br><br>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <p class="cent1">Danza Sōran Bushi</p>
+
+           <p class="cent1"> <iframe width="560" height="315" src="https://www.youtube.com/embed/N_ZxTFxD380" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+           </p>
+
+            <p class="cent1">Te dejamos una versión de solo la melodía de Sōran Bushi ¡Esperamos que la disfrutes!</p>
+
+            <p class="cent1"> <iframe width="560" height="315" src="https://www.youtube.com/embed/wYTkeEXxmeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </p>
+
+            
+            <p class="caja">
+                NOTA 
+                <br/> Los kanjis de cada palabra tienen un significado a veces más profundo, los más importantes de aquí son: 
+                <br> <br>
+                 節 (bushi): Temporada
+                 <br> <br>
+                 北 (kita): Norte
+                 <br> <br>
+                 海 (umi): Mar, oceano
+                 <br> <br>
+                 道 (michi): Camino 
+                    
+            </p>
+
+
+        </main>
+
+        <!--Etiqueta equivalente a main-->
+        <footer>
+            <p>Página creada por Lezly Reyes en el curso de  
+                <a href="https://tecnolochicas.mx/" >Tecnolochicas Pro</a>
+            </p>
+        </footer> <!--foorter es el pie de pagina-->
+        <!--el ID se usa para CSS-->
+
+    </body>
+</html>
